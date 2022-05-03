@@ -36,12 +36,15 @@ body {
 .header {
   width: 100%;
   height: 80px;
-  background: whitesmoke;
+  background-color: #7D8AFF;
   margin-top: -80px;
   position: fixed;
   display: flex;
   align-items: center;
+  border: 1px solid transparent;
+  outline: none;
   justify-content: space-between;
+  transition: background-color 300ms ease;
   z-index: 10000000; }
   .header .logo {
     height: 100%;
@@ -122,17 +125,24 @@ body {
 #btn-menu:checked ~ .container-menu {
   transform: none; }
 
+.abajo {
+  background-color: whitesmoke;
+  transition: background-color 700ms ease; }
+  .abajo #line1, .abajo #line2, .abajo #line3 {
+    background-color: #000; }
+
 .presentacion {
   width: 100%;
-  height: 88vh; }
+  height: 89vh;
+  margin-top: -10px; }
 
 .imagen-presentacion {
   background-image: url(multi/progra.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   width: 100%;
-  height: 30%;
+  height: 200px;
   display: flex;
   z-index: 10;
   justify-content: flex-start; }
@@ -176,9 +186,13 @@ body {
   width: 100%;
   height: 50px; }
 
+.plantillas {
+  color: black; }
+
 .textoSlider {
   white-space: nowrap;
   border-right: 3px solid;
+  color: black;
   width: 11.7ch;
   animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
   overflow: hidden; }

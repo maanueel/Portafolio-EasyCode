@@ -133,6 +133,10 @@ body {
 
 .presentacion {
   width: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-direction: column;
   height: 89vh;
   margin-top: -10px; }
 
@@ -187,7 +191,11 @@ body {
   height: 50px; }
 
 .plantillas {
-  color: black; }
+  width: 100%;
+  background-color: green;
+  height: 200px;
+  color: black;
+  display: flex; }
 
 .textoSlider {
   white-space: nowrap;

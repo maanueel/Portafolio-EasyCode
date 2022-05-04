@@ -11,6 +11,8 @@
       <link rel='stylesheet' href='css/styleMobile.css'>
       <!-- <link rel='stylesheet' href='styles/styleIpad.css'>
       <link rel='stylesheet' href='styles/styleDesktop.css'> -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/f16b090aff.js" crossorigin="anonymous"></script>
       <title>Portafolio de Proyectos</title>
 </head>
 <body>
@@ -30,12 +32,32 @@
               
                 <div class="container-menu">
                   <div class="cont-menu">
+                    <i class="fa-solid fa-house" id="banner-menu"></i>
                   <nav>
-                      <a href="#">Home</a>
-                      <a href="#">Pedidos</a>
-                      <a href="#">Contactanos</a>
-                      <a href="#">Redes Sociales</a>
-                      
+                      <div class="elemento-lista">
+                        <a href="#" class="a-lista">Pedidos</a>
+                          <div class="ico">
+                            <a href="#" ><i class="fa-solid fa-boxes-packing" id="ico__nav"></i></a>
+                          </div>
+                      </div>           
+                      <div class="elemento-lista">    
+                        <a href="#" class="a-lista">Contactanos</a>
+                          <div class="ico">
+                            <a href="#" ><i class="fa-solid fa-square-phone" id="ico__nav"></i></a>
+                          </div>
+                      </div>
+                      <div class="elemento-lista">
+                        <a href="html/nosotros.html" class="a-lista">Nosotros</a>
+                          <div class="ico">
+                            <a href="html/nosotros.html" ><i class="fa-solid fa-people-group" id="ico__nav"></i></a>
+                          </div>
+                      </div>
+                      <div class="elemento-lista">
+                        <a href="#" class="a-lista">Redes Sociales</a>
+                          <div class="ico"> 
+                            <a href="#" ><i class="fa-solid fa-hashtag" id="ico__nav"></i></a>
+                         </div>
+                      </div>
                   
                   
                   </nav>
@@ -50,15 +72,15 @@
             <div class="imagen-presentacion">
             </div>
             <div class="sub">
-                <h1 class="text-present">CREACIÓN DE PÁGINAS WEB</h1>
+                <h1 class="text-present" data-aos="fade-up">CREACIÓN DE PÁGINAS WEB</h1>
                 <div class="des">
                 
-                    <div class="front-end"> 
+                    <div class="front-end" data-aos="fade-left"> 
                       <H3>FRONTEND</H3>
                       <p>Hola soy el área de front-end y aquí van mis caractierísticas</p> 
                     </div>
                   
-                    <div class="back-end">
+                    <div class="back-end" data-aos="fade-right">
                       <h3>BACKEND</h3>
                       <p>Hola soy el área de back-end y aquí van mis características</p> 
                   </div>
@@ -67,7 +89,7 @@
             </div>
           </div>
             <div class="plantillas">
-              <h2 class="text__Plantillas">Nuestras Plantillas</h2>
+              <h2 class="text__Plantillas" data-aos="fade-right">Nuestras Plantillas</h2>
             </div>
         <div class="textContainer">
             <h3 class="textoSlider">Restaurantes</h3>
@@ -91,8 +113,16 @@
           
         </div>
         <script type="text/javascript" src="js/logic.js">
-         
+            </script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	 
+    </script>
+    <script>
+      AOS.init({
+        duration:1000
+      });
+    </script>
           
-        </script>
+      
 </body>
 </html>

@@ -200,6 +200,9 @@ a {
   height: 50%;
   z-index: 10;
   border-bottom: 2px solid black; }
+  .front-end .front-li {
+    text-align: left;
+    display: inline; }
 
 .back-end {
   width: 100%;

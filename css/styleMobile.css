@@ -161,7 +161,7 @@ a {
 
 .presentacion {
   width: 100%;
-  height: 700px;
+  height: 1400px;
   margin-top: -10px; }
 
 .imagen-presentacion {
@@ -210,14 +210,12 @@ a {
   width: 100%;
   height: 50%;
   z-index: 10;
-  border-bottom: 2px solid black; }
-  .front-end .front-li {
-    text-align: left;
-    width: 290px; }
+  padding: 20px; }
 
 .back-end {
   width: 100%;
-  height: 50%; }
+  height: 50%;
+  padding: 20px; }
 
 .textContainer {
   display: flex;

@@ -159,7 +159,7 @@ a {
 
 .presentacion {
   width: 100%;
-  height: 400px;
+  height: 450px;
   margin-top: -10px; }
 
 .imagen-presentacion {
@@ -187,10 +187,14 @@ a {
   font-size: 40px;
   height: 15%; }
 
+.des-sub {
+  padding-top: 20px;
+  margin: 10px; }
+
 #scroll-down {
   color: black;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 30px;
   animation: desplazo .9s infinite alternate-reverse; }
 
@@ -203,31 +207,124 @@ a {
   width: 100%;
   height: 85%; }
 
-.front-end {
-  background-color: #7D8AFF;
+.estructura {
   width: 100%;
+  height: 70px;
+  background-color: #0e153a;
+  display: flex;
+  text-align: center;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px; }
+
+.front-end {
+  background-color: #fff;
+  color: #7D8AFF;
+  width: 100%;
+  margin-top: -20px;
   height: 700px;
-  z-index: 10;
-  margin-top: 10px; }
+  position: relative; }
+  .front-end h3 {
+    text-align: center;
+    padding-top: 40px; }
+  .front-end p {
+    margin: 10px;
+    text-align: center;
+    color: #1B1C1E;
+    padding-bottom: 20px; }
+  .front-end .logos {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: flex-start; }
+  .front-end #logo-frontend {
+    color: grey;
+    font-size: 120px;
+    opacity: .1; }
 
 .carac {
   width: 100%;
-  height: 700pc;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 150px); }
+  height: 400px; }
+
+.capa {
+  width: 100%;
+  height: 400px;
+  background-color: #1B1C1E;
+  opacity: .5;
+  z-index: 31;
+  position: absolute; }
 
 .responsive {
-  background-color: #22d1ee; }
+  width: 100%;
+  height: 100px;
+  background-image: url(multi/responsive.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 30; }
+  .responsive p {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 400;
+    z-index: 32;
+    position: relative; }
 
 .plantillasDispo {
-  background-color: #3d5af1; }
+  width: 100%;
+  height: 100px;
+  background-image: url(multi/plantillas.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 30; }
+  .plantillasDispo p {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 400;
+    z-index: 32;
+    position: relative; }
 
 .creativas {
-  background-color: #3d5af1; }
+  width: 100%;
+  height: 100px;
+  background-image: url(multi/creativas.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 30; }
+  .creativas p {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 400;
+    z-index: 32;
+    position: relative; }
 
-.Necesidades {
-  background-color: #22d1ee; }
+.navegadores {
+  width: 100%;
+  height: 100px;
+  background-image: url(multi/navegadores.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 30; }
+  .navegadores p {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 400;
+    z-index: 32;
+    position: relative; }
 
 .back-end {
   width: 100%;
@@ -294,5 +391,10 @@ a {
   min-width: 100%;
   background-color: lightblue;
   height: 360px; }
+
+.footer {
+  width: 100%;
+  height: 350px;
+  background-color: #0e153a; }
 
 /*# sourceMappingURL=styleMobile.css.map */
